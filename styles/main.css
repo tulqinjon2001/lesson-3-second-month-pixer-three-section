@@ -1,0 +1,329 @@
+/* open-sans-regular - latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/open-sans-v29-latin-regular.eot');
+  src: url('../fonts/open-sans-v29-latin-regular.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/open-sans-v29-latin-regular.woff2') format('woff2'),
+       url('../fonts/open-sans-v29-latin-regular.woff') format('woff'),
+       url('../fonts/open-sans-v29-latin-regular.ttf') format('truetype'),
+       url('../fonts/open-sans-v29-latin-regular.svg#OpenSans') format('svg');
+}
+/* open-sans-700 - latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/open-sans-v29-latin-700.eot');
+  src: url('../fonts/open-sans-v29-latin-700.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/open-sans-v29-latin-700.woff2') format('woff2'),
+       url('../fonts/open-sans-v29-latin-700.woff') format('woff'),
+       url('../fonts/open-sans-v29-latin-700.ttf') format('truetype'),
+       url('../fonts/open-sans-v29-latin-700.svg#OpenSans') format('svg');
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+/* Header */
+
+header {
+  background: #FFFFFF;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  width: 1100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.header-logo-link {
+  display: block;
+}
+
+.header-logo-img {
+  width: 58px;
+  height: 20px;
+}
+
+.header-logo-img:hover {
+  opacity: 0.8;
+}
+
+.header-logo-img:active {
+  opacity: 0.4;
+}
+
+.header-list {
+  width: 716px;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header-item:hover {
+  box-shadow: 0px 3px#191919;
+}
+
+.header-item-link {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #000;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+.connect-number {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 24px;
+  color: #fff;
+  background-color: #00bafc;
+  border-radius: 5px;
+  padding: 8px 16px;
+}
+
+.connect-number:hover {
+  color: #00bafc;
+  background: #fff;
+  border: 3px solid #00bafc;
+  border-radius: 5px;
+  padding: 5px 13px;
+}
+
+.connect-number:active {
+  background-color: rgba(0, 186, 252, 0.6);
+}
+
+/* Hero */
+
+.hero {
+  width: 1100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 0px;
+}
+
+.hero-content {
+  width: 470px;
+}
+
+.hero-content-title {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 130%;
+  color: #000000;
+  margin: 0;
+  margin-bottom: 16px;
+  padding: 0;
+}
+
+.hero-content-paragraph {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  margin: 0;
+  margin-bottom: 16px;
+  padding: 0;
+}
+
+.hero-content-button {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 24px;
+  color: #fff;
+  background-color: #00bafc;
+  border-radius: 5px;
+  padding: 8px 16px;
+  border: 0;
+}
+
+.hero-content-button:hover {
+  color: #00bafc;
+  background: #fff;
+  border: 3px solid #00bafc;
+  border-radius: 5px;
+  padding: 5px 13px;
+}
+
+.hero-content-button:active {
+  background-color: rgba(0, 186, 252, 0.6);
+}
+
+.hero-video {
+  width: 458px;
+  height: 258px;
+  border-radius: 10px;
+}
+
+/* Services */
+
+.services {
+  text-align: center;
+}
+
+.services-title {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 130%;
+  text-align: center;
+  color: #000000;
+  margin: 0;
+  margin-top: 56px;
+  margin-bottom: 16px;
+}
+
+.services-paragraph {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #000000;
+  width: 719px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.services-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  padding: 0;
+}
+
+
+.services-item {
+  width: 320px;
+  height: 260px;
+  background: #fff;
+  box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.services-item:hover {
+  box-shadow: 0px 12px 21px rgba(0, 0, 0, 0.1);
+}
+
+.services-item:active {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.item-left {
+  margin-left: 193px;
+  margin-top: 48px;
+  mb40
+}
+
+.item-right {
+  margin-right: 193px;
+  margin-top: 48px;
+  margin-bottom: 40px;
+}
+
+.services-item-links {
+  text-decoration: none;
+}
+
+.services-item-img {
+  width: 202px;
+  height: 130px;
+  padding-top: 24px;
+}
+
+.service-item-titke {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 130%;
+  text-align: center;
+  color: #000000; 
+}
+
+.services-item-text {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #000000;
+}
+
+.sevices-button {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 24px;
+  color: #fff;
+  background-color: #00bafc;
+  border-radius: 5px;
+  margin-right: 16px;
+  padding: 8px 16px;
+  border: 0;
+}
+
+.sevices-button:hover {
+  color: #00bafc;
+  background: #fff;
+  border: 3px solid #00bafc;
+  border-radius: 5px;
+  padding: 5px 13px;
+}
+
+.sevices-button:active {
+  background-color: rgba(0, 186, 252, 0.6);
+}
+
+/* link */
+.services-link {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #00bafc;
+  }
